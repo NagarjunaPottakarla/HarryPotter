@@ -13,7 +13,6 @@ public class BooksSetFactory {
     public BooksSetFactory(List<BooksSetDiscount> discounts){
         this.discounts = discounts;
     }
-
     public List<BooksSet> getDifferentBooksSetsWithMaxTotalDiscount(List<ShoppingCartItem> shoppingCartItems) {
 
         List<BooksSet> optimizeSetList;

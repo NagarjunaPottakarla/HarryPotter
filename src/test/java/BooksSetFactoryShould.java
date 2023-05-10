@@ -27,7 +27,6 @@ public class BooksSetFactoryShould {
         booksSetFactory = new BooksSetFactory(byDifferentCopiesDiscountList);
     }
 
-
     @Test
     public void extract_one_set_of_4_books_when_cart_items_are_one_copy_for_first_four_books(){
 

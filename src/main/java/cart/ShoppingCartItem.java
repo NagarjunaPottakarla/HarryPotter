@@ -8,7 +8,6 @@ public class ShoppingCartItem {
         this.book = book;
         this.quantity = quantity;
     }
-
     public Book getBook() {
         return book;
     }

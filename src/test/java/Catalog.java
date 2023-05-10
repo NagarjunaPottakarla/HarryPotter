@@ -24,7 +24,6 @@ public class Catalog {
 
         return book;
     }
-
     public static Book GivenAHarryPotterVBook(){
         Book book = new Book("Harry Potter and the Order of the Phoenix");
 

@@ -8,7 +8,6 @@ public class BooksSetDiscount {
         this.differentCopies = differentCopies;
         this.discount = discount;
     }
-
     public int getDifferentCopies(){
         return differentCopies;
     }

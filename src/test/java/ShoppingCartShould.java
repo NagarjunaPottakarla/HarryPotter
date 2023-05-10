@@ -39,6 +39,7 @@ public class ShoppingCartShould {
 
         assertThat(shoppingCart.getTotalPrice(), is(8.0));
 
+        
     }
 
     @Test
