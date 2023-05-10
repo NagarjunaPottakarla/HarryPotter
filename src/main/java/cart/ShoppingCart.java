@@ -26,6 +26,7 @@ public class ShoppingCart {
         else
             shoppingCartItems.add(new ShoppingCartItem(book, 1));
     }
+    
     public double getTotalPrice(){
         return priceCalculator.calculate(shoppingCartItems);
     }

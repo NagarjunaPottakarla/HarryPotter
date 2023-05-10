@@ -12,6 +12,7 @@ public class BooksSet {
         this.books = books;
         this.discount = discount;
     }
+    
     public HashSet<Book> getBooks() {
         return books;
     }
