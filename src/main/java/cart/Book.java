@@ -17,7 +17,6 @@ public class Book {
     public int getPrice() {
         return price;
     }
-
     public boolean equals(Object o){
         if(o == null) return false;
         if(!(o instanceof Book)) return false;

@@ -13,7 +13,6 @@ public class PriceCalculatorByBooksSetDiscount implements ShoppingCart.PriceCalc
     public PriceCalculatorByBooksSetDiscount(BooksSetFactory booksSetFactory){
         this.booksSetFactory = booksSetFactory;
     }
-
     @Override
     public Double calculate(List<ShoppingCartItem> shoppingCartItems) {
         List<BooksSet> setsOfDifferentBooks =

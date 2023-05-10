@@ -9,7 +9,6 @@ import java.util.*;
 public class BooksSetFactory {
 
     List<BooksSetDiscount> discounts;
-
     public BooksSetFactory(List<BooksSetDiscount> discounts){
         this.discounts = discounts;
     }
